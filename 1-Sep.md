@@ -1,0 +1,2 @@
+# **Extensible Memory in ArrayList**
+- ArrayList `doesn't` have an infinite memory from the very beginning. In fact, what happens is once the ArrayList gets filled, a new, larger ArrayList is created and the old one is shifted there.
