@@ -31,8 +31,14 @@ static int fibo(int n) {
 
 *BONUS*: Practice on pen and paper regularly. Use debuggers on IDE.
 
-# **Types of Recurrence Relation**
+## **Types of Recurrence Relation**
 1. Linear Recurrence Relation (e.g., fibonacci)
 2. Divide and Conquer Recurrence Relation (e.g., Binary search)
 
 `Linear is less efficient than D&C 'cause the large number is getting smaller by very small extent during each recursive call.`
+
+# **Types of Variables in Recursion**
+(In/As):
+1. Arguments (*get passed onto the next recursive call*)
+2. Return Type (*make sure to return the mentioned data type from the subcalls, too; else the code won't work*)
+3. Body of Function (*the variables which aren't necessary to pass onto another recursive call are put here*)
